@@ -11,7 +11,8 @@ public class SharedPreferencesForBooks {
     private static final String KEY_LAST_ACCESS = "KEY_LAST_ACCESS";
 
     public SharedPreferencesForBooks (Context context) {
-        mPreferences = context.getSharedPreferences(SHARED_PREF_NAME, Context.MODE_PRIVATE);
+        mPreferences = context.getSharedPreferences(SHARED_PREF_NAME,
+                Context.MODE_PRIVATE);
     }
 
     public void reset() {
