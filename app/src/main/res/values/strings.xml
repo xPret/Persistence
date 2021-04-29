@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Persistence</string>
+    <string name="read_db_button_text">Read</string>
+    <string name="save_db_button_text">Save</string>
+    <string name="read_file_button_text">Read</string>
+    <string name="save_file_button_text">Save</string>
+    <string name="database_section_title">Database</string>
+    <string name="file_section_title">File</string>
+    <string name="see_book_button_text">See Book</string>
+    <string name="book_image_content_desc">book image</string>
+</resources>
