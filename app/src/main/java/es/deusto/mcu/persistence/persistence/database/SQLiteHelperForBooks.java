@@ -46,7 +46,7 @@ public class SQLiteHelperForBooks extends SQLiteOpenHelper{
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
         Log.d(TAG, "<<< SQLiteHelperForBooks()");
         mReadableDB = getReadableDatabase();
-        mWritableDB = getReadableDatabase();
+        mWritableDB = getWritableDatabase();
         Log.d(TAG, ">>> SQLiteHelperForBooks()");
     }
 
